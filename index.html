@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+Hotstar</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+  rel="stylesheet"
+/>
+
+</head>
+<body>
+ <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">DISNEYHOTSTAR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light"href="#">MY SPACE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">TV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light " href="#">MOVIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">SPORTS</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 text-light" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success text-light" type="submit">Search</button>
+              </form>
+          </div>
+
+        </div>
+      </nav>
+ </header>
+ <!-- carousel -->
+      <section>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                <img src="./images/luca.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/raya.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/wanda vision.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/falcon.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+<!-- cards -->
+<!-- <section>
+    <div class="row">
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-1"><div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div></div>
+       <div class="col-md-1">
+        <div class="card" style="width: 10rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+       </div>
+    
+    </div>
+</section> -->
+<section class="cardsection">
+
+    <div class="container-fluid containerdiv d-flex">
+        
+        <div class=" videodiv pt-5 ps-5">
+            
+                <img src="./images/Disney-logo-white-png.png" class="card-img-top cimage" alt="...">
+                <video src="./images/disney.mp4" autoplay muted loop class="cardvideo"></video>
+              
+        </div>
+        <div class=" videodiv pt-5">
+          
+                <img src="./images/marvel.png" class="card-img-top cimage" alt="...">
+                <video src="./images/marvel.mp4" autoplay muted loop class="cardvideo"></video>
+              
+        </div>
+        <div class=" videodiv pt-5">
+            
+                <img src="./images/pixar-removebg-preview.png" class="card-img-top cimage" alt="...">
+                <video src="./images/pixar.mp4" autoplay muted loop class="cardvideo"></video>
+              
+        </div>
+        <div class=" videodiv pt-5">
+            
+                <img src="./images/Star_Wars-logo-B06952A462-seeklogo.com.png" class="card-img-top cimage " alt="...">
+                <video src="./images/starwars.mp4" autoplay muted loop class="cardvideo"></video>
+              
+        </div>
+        <div class=" videodiv pt-5">
+           
+                <img src="./images/natgeo-removebg-preview.png" class="card-img-top cimage" alt="...">
+                <video src="./images/nat geo.mp4" autoplay muted loop class="cardvideo"></video>
+             
+        </div>
+        
+    </div>
+
+</section>
+
+<section class="recommended">
+  <h1 class="title">Recommended For You</h1>
+  <div class="movies-list d-flex ">
+    <!-- <button class="pre-btn" title="btn">
+      <img src="images/pre.png" alt="" />
+    </button>
+    <button class="nxt-btn" title="btn">
+      <img src="images/nxt.png" alt="" />
+    </button> -->
+    <div class="containercard">
+      <div class="card cards">
+        <img src="./images/loki3.jpg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Loki</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/Mulan_2020_theatrical_poster.webp" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Mulan</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/The Falcon And The Winter Soldier.jpg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">The Falcon And The Winter Soldier</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/Avengersendgame.webp" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Avengers:Endgame</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+            <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/Thor Ragnarok.jpeg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Thor Ragnarok</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/avengers.jpg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Avengers</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/Pirates-of-the-Caribbean-Salazars-Revenge-pos.jpg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Pirates Of The Carribean</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/Soul.jpg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Soul</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/Raya And The Last Dragon.jpeg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Raya And The Last Dragon</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/Luca-.jpg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Luca</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/fordvferrari-poster.webp" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Ford Vs Farrari</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <div class="card cards">
+        <img src="./images/X-man.jpg" class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">X-man: Dark Pheonix</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+      </div>
+      <!-- <div class="card cards">
+        <img src="..." class="card-img-top cardimage" alt="...">
+        <div class="card-body cardbody">
+          <h2 class="name">Mulan</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn">add to watchlist</button>        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+<section class="popular">
+  <h1 class="title">Popular Shows</h1>
+  <div class="containercard">
+    <div class="card cards">
+      <img src="./images/loki3.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Loki</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/Mulan_2020_theatrical_poster.webp" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Mulan</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/The Falcon And The Winter Soldier.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">The Falcon And The Winter Soldier</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/Avengersendgame.webp" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Avengers:Endgame</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+          <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/Thor Ragnarok.jpeg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Thor Ragnarok</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/avengers.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Avengers</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btnwatchbutton ">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/Pirates-of-the-Caribbean-Salazars-Revenge-pos.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Pirates Of The Carribean:Salazar's Revenge</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/Soul.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Soul</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/Raya And The Last Dragon.jpeg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Raya And The Last Dragon</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/Luca-.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Luca</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/fordvferrari-poster.webp" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Ford Vs Farrari</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <div class="card cards">
+      <img src="./images/X-man.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">X-man: Dark Pheonix</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn watchbutton">add to watchlist</button>        </div>
+    </div>
+    <!-- <div class="card cards">
+      <img src="..." class="card-img-top cardimage" alt="...">
+      <div class="card-body cardbody">
+        <h2 class="name">Mulan</h2>
+        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+        <button class="watchlist-btn">add to watchlist</button>        </div>
+    </div> -->
+  </div>
+  <!-- <div class="movies-list">
+    <button class="pre-btn" title="btn">
+      <img src="images/pre.png" alt="" />
+    </button>
+    <button class="nxt-btn" title="btn">
+      <img src="images/nxt.png" alt="" />
+    </button>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/poster 12.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">X-man: Dark Pheonix</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 11.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Ford Vs Farrari</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 10.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Luca</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 9.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Raya And The Last Dragon</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 8.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Soul</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 7.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Pirates Of The Carribean:Salazar's Revenge</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 6.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Avengers</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 5.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Thor Ragnarok</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 4.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Avengers:Endgame</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 3.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">The Falcon And The Winter Soldier</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 2.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Mulan</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/poster 1.png" class="card-img" alt="" />
+        <div class="card-body">
+          <h2 class="name">Loki</h2>
+          <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</section>
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+></script>
+</html>
